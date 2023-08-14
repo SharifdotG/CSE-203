@@ -15,5 +15,5 @@ public class TestLion {
  * Royal Bengal Tiger like to hunt deer.
  * Species: Royal Bengal Tiger
  * Color: Golden
- * Weight: 200.
+ * Weight: 200.0
  */

@@ -25,13 +25,5 @@ public class ICPCVolunteer {
         System.out.println("Role: " + role);
         System.out.println("Rank: " + rank);
     }
-
-    public static void main(String[] args) {
-        ICPCVolunteer volunteer = new ICPCVolunteer("John Doe", "Trainer", 5);
-
-        volunteer.getTraining("Problem Solving", 3);
-
-        volunteer.display();
-    }
 }
 

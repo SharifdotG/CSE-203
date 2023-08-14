@@ -1,23 +1,23 @@
-package Fall2022.CT2.SetC;
+package Fall2022.CT2.SetG;
 
-public class Doctor {
+public class Physician {
     private String name;
     private String specialty;
     private int rank;
 
-    public Doctor(String name, String specialty, int rank) {
+    public Physician(String name, String specialty, int rank) {
         this.name = name;
         this.specialty = specialty;
         this.rank = rank;
     }
 
-    public void prescribe(String patient, String med) {
+    public void meetPatient(String patient, String med) {
         System.out.println(name + " prescribes " + med + " to " + patient + ".");
         rank++;
     }
 
-    public int getRank() {
-        return rank;
+    public String getSpecialty() {
+        return specialty;
     }
 
     public void display() {
@@ -26,4 +26,3 @@ public class Doctor {
         System.out.println("Rank: " + rank);
     }
 }
-
