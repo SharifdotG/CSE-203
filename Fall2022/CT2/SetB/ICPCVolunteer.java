@@ -1,9 +1,9 @@
 package Fall2022.CT2.SetB;
 
 public class ICPCVolunteer {
-    private String name;
-    private String role;
-    private int rank;
+    public String name;
+    public String role;
+    public int rank;
 
     public ICPCVolunteer(String name, String role, int rank) {
         this.name = name;

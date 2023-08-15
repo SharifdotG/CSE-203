@@ -1,9 +1,9 @@
 package Fall2022.CT2.SetA;
 
 public class Lion {
-    private String species;
-    private String color;
-    private double weight;
+    public String species;
+    public String color;
+    public double weight;
 
     public Lion(String species, String color, double weight) {
         this.species = species;

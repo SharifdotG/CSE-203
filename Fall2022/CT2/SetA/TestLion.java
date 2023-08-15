@@ -2,7 +2,7 @@ package Fall2022.CT2.SetA;
 
 public class TestLion {
     public static void main(String[] args) {
-        Lion myLion = new Lion("Royal Bengal Tiger", "Golden", 200.0);
+        Lion myLion = new Lion("Royal Bengal Tiger", "Golden", 200);
 
         myLion.hunt("deer");
 
