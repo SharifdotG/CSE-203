@@ -1,9 +1,9 @@
 package Fall2022.CT2.SetE;
 
 public class Shark {
-    private String species;
-    private String color;
-    private double weight;
+    public String species;
+    public String color;
+    public double weight;
 
     public Shark(String species, String color, double weight) {
         this.species = species;

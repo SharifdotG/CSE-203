@@ -29,8 +29,8 @@ public class Fan {
 
     public void decreaseSpeed(int amt) {
         speed -= amt;
-        if (speed < 0) {
-            speed = 0;
+        if (speed > maxSpeed) {
+            speed = maxSpeed;
         }
     }
 

@@ -1,14 +1,13 @@
 package Fall2022.CT2.SetD;
 
 public class ICPCTeam {
-    private String coachName;
-    private int memberCount;
-    private int noOfProbSolved;
+    public String coachName;
+    public int memberCount;
+    public int noOfProbSolved;
 
     public ICPCTeam(String coachName, int memberCount) {
         this.coachName = coachName;
         this.memberCount = memberCount;
-        this.noOfProbSolved = 0;
     }
 
     public void solveProblems(int count) {

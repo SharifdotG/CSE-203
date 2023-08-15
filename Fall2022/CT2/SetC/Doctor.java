@@ -1,9 +1,9 @@
 package Fall2022.CT2.SetC;
 
 public class Doctor {
-    private String name;
-    private String specialty;
-    private int rank;
+    public String name;
+    public String specialty;
+    public int rank;
 
     public Doctor(String name, String specialty, int rank) {
         this.name = name;

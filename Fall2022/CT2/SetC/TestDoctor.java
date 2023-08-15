@@ -9,6 +9,7 @@ public class TestDoctor {
         myDoctor.display();
     }
 }
+
 /*
  * Output:
  * Sharif Md .Yousuf prescribes Ace to Tareq.
