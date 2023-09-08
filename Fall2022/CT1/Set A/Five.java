@@ -5,7 +5,7 @@ public class Five {
         if (a > 1 && a < 5) // Error 1: no if block, though there are two lines of code.
             System.out.println("Valid input");
             a--;
-        else
-            System.out.println("Invalid input");
-    }
-}
+        else // Error 2: else without if because of the previous error.
+            System.out.println("Invalid input"); // Error 3: unreachable code.
+    } // Error 4: missing closing brace.
+} // Error 5: missing closing brace.
