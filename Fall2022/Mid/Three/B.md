@@ -43,7 +43,7 @@ public class TestOutput {
    - In the second iteration (i = 1):
      - `array1[1]` is 3 and `array2[1]` is 3. The elements are equal, so `result` becomes 2 + 3 = 5.
 
-   - For the remaining iterations (i = 2 to 5):
+   - For the remaining iterations (i = 2 to 4):
      - `array1[i]` and `array2[i]` are compared, and the greater value is added to `result`.
 
 6. The loop finishes, and `result` becomes 5 + 6 + 7 + 9 = 27.
