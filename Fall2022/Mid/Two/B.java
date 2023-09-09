@@ -20,8 +20,6 @@ public class B {
 
         int sum = max + min;
 
-        System.out.println("Maximum: " + max);
-        System.out.println("Minimum: " + min);
         System.out.println("Sum of Maximum and Minimum: " + sum);
 
         scanner.close();
