@@ -4,7 +4,7 @@
 package mid;
 public class Test {
     public static void main(String[] args) { 
-        int num1, int #num2;  // Error: Cannot declare two variables without separating their declarations.
+        int num1, int #num2;  // Error: Cannot declare two variables without separating their declarations and there can't be another int before #num2.
         num1 = 9.5;  // Error: Trying to assign a double value to an int variable without explicit casting.
         System.out.println("%f", num1);  // Error: Incorrect syntax for printing.
         if (num1 % 2)  // Error: The condition in 'if' statement must evaluate to a boolean value.
