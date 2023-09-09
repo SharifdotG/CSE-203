@@ -6,7 +6,7 @@ public class Cellphone {
         Electronics myPhone = new Electronics("iPhone", "Black", 45);
 
         // Get the last 2 digits of your ID (replace '28' with your actual ID)
-        int time = Integer.parseInt("28") % 100;
+        int time = Integer.parseInt("28");
 
         // Call the running() method
         myPhone.running(time);
