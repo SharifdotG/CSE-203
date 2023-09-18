@@ -3,7 +3,7 @@
 ---
 
 ### Problem 1:
-**Abstract Class - Avengers Endgame**
+**Abstract Class**
 
 ```java
 // Define an abstract class with at least one abstract method.
@@ -30,7 +30,7 @@ abstract class AvengersCharacter {
 ```
 
 ### Problem 2:
-**Interface - Gaming PC**
+**Interface**
 
 ```java
 // Define an interface with at least two abstract methods.
