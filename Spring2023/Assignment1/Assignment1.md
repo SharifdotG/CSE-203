@@ -1,131 +1,114 @@
-# CSE 203: Java - Assignment #1
+# CSE 203: Java Assignment #1
 
-## Problem 1: Abstract Class (Gaming PC Components)
+---
+
+### Problem 1:
+**Abstract Class - Avengers Endgame**
 
 ```java
-// Define an Abstract class with at least one abstract method.
-// Make sure the class has the following. (Theme: Gaming PC Components)
-abstract class PCComponent {
+// Define an abstract class with at least one abstract method.
+abstract class AvengersCharacter {
     // Has at least 2 instance variables.
-    protected String componentName;
-    protected double price;
-
-    // Has a parameterized constructor.
-    public PCComponent(String componentName, double price) {
-        this.componentName = componentName;
-        this.price = price;
+    String name;
+    int powerLevel;
+    
+    // Parameterized constructor.
+    public AvengersCharacter(String name, int powerLevel) {
+        this.name = name;
+        this.powerLevel = powerLevel;
     }
-
+    
     // Has at least one instance/complete method.
-    public void displayComponentInfo() {
-        System.out.println("Component: " + componentName);
-        System.out.println("Price: $" + price);
+    public void displayCharacterInfo() {
+        System.out.println("Name: " + name);
+        System.out.println("Power Level: " + powerLevel);
     }
-
+    
     // Has at least one abstract method.
-    public abstract void upgradeComponent();
+    public abstract void specialAbility();
 }
 ```
 
-## Problem 2: Interface (Call of Duty Games)
+### Problem 2:
+**Interface - Gaming PC**
 
 ```java
 // Define an interface with at least two abstract methods.
-// Make sure the methods satisfy the following conditions. (Call of Duty Games)
-interface CallOfDutyGame {
+interface GamingPCConfig {
     // At least one method should have a non-void return type.
-    double getGameRating();
-
-    // At least one method should have minimum one parameter.
-    void playGame(String playerName);
+    double calculatePerformanceScore();
+    
+    // At least one method should have a minimum of one parameter.
+    void upgradeComponent(String componentName);
 }
 ```
 
-## Problem 3: Concrete Subclass
+### Problem 3:
+**Concrete Subclass**
 
 ```java
-// Create a concrete subclass of the abstract class created in Problem 1.
-class GraphicsCard extends PCComponent {
-    private int VRAM;  // Additional instance variable for GraphicsCard
-
-    public GraphicsCard(String componentName, double price, int VRAM) {
-        super(componentName, price);
-        this.VRAM = VRAM;
+// Create a concrete subclass of the abstract class from Problem 1.
+class IronMan extends AvengersCharacter {
+    public IronMan(String name, int powerLevel) {
+        super(name, powerLevel);
     }
-
-    // Implement the abstract method from the parent class.
+    
+    // Implementing the abstract method from the abstract class.
     @Override
-    public void upgradeComponent() {
-        System.out.println("Upgrading " + componentName + " with more VRAM.");
-        VRAM += 4; // Simulate a VRAM upgrade
-        price += 100; // Increase price for the upgrade
-    }
-
-    // Additional method specific to GraphicsCard
-    public void overclock() {
-        System.out.println("Overclocking " + componentName + " for better performance.");
+    public void specialAbility() {
+        System.out.println(name + " can fly using his Iron Man suit.");
     }
 }
 ```
 
-## Problem 4: Concrete Class Implementing Interface
+### Problem 4:
+**Concrete Class Implementing Interface**
 
 ```java
-// Create a concrete class implementing the interface created in Problem 2.
-class CallOfDutyModernWarfare implements CallOfDutyGame {
-    private double rating;
-
-    public CallOfDutyModernWarfare(double rating) {
-        this.rating = rating;
-    }
-
-    // Implement the methods from the interface.
+// Create a concrete class implementing the interface from Problem 2.
+class GamingComputer implements GamingPCConfig {
+    private double performanceScore;
+    
     @Override
-    public double getGameRating() {
-        return rating;
+    public double calculatePerformanceScore() {
+        // Define how to calculate the performance score.
+        return performanceScore;
     }
-
+    
     @Override
-    public void playGame(String playerName) {
-        System.out.println(playerName + " is playing Call of Duty: Modern Warfare.");
+    public void upgradeComponent(String componentName) {
+        // Implement the component upgrade logic here.
     }
 }
 ```
 
-## Problem 5: Concrete Class Inheriting and Implementing
+### Problem 5:
+**Concrete Class Inheriting and Implementing**
 
 ```java
 // Create a concrete class that inherits the abstract class from Problem 1
 // and also implements the interface from Problem 2.
-class GamingPC extends PCComponent implements CallOfDutyGame {
-    private String PCName;
-
-    public GamingPC(String componentName, double price, String PCName) {
-        super(componentName, price);
-        this.PCName = PCName;
+class Thor extends AvengersCharacter implements GamingPCConfig {
+    public Thor(String name, int powerLevel) {
+        super(name, powerLevel);
     }
-
-    // Implement the abstract method from the parent class.
+    
+    // Implementing the abstract method from the abstract class.
     @Override
-    public void upgradeComponent() {
-        System.out.println("Upgrading " + componentName + " for gaming performance.");
-        price += 500; // Increase price for the gaming upgrade
+    public void specialAbility() {
+        System.out.println(name + " can summon thunder with his mighty hammer.");
     }
-
-    // Implement the methods from the interface.
+    
+    // Implementing methods from the interface.
     @Override
-    public double getGameRating() {
-        return 4.5; // A default rating for the gaming PC
+    public double calculatePerformanceScore() {
+        // Define how to calculate the performance score for Thor's gaming PC.
+        return 0.0;
     }
-
+    
     @Override
-    public void playGame(String playerName) {
-        System.out.println(playerName + " is playing games on " + PCName);
-    }
-
-    // Additional method specific to GamingPC
-    public void overclockCPU() {
-        System.out.println("Overclocking the CPU for better gaming performance.");
+    public void upgradeComponent(String componentName) {
+        // Implement the component upgrade logic for Thor's gaming PC here.
     }
 }
 ```
