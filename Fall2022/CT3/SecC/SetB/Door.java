@@ -1,6 +1,6 @@
 package Fall2022.CT3.SecC.SetB;
 
-interface Door {
+public interface Door {
     void open();
     void close();
 }

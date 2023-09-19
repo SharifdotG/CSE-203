@@ -1,4 +1,4 @@
-class Car extends Vehicle {
+public class Car extends Vehicle {
     // Constructor for Car class
     public Car(String model, double enginePower) {
         super(model, enginePower);

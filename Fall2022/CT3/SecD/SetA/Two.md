@@ -13,12 +13,13 @@ package ct;
 
 public class TestEmployee {
     public static void main(String[] args) {
-        PartTimeEmployee emp = new PartTimeEmployee(); // Create a PartTimeEmployee object
+        Employee emp = new Employee(); // Create an Employee object
+        PartTimeEmployee part = new PartTimeEmployee(); // Create a PartTimeEmployee object
         emp.name = "Haider";
         emp.id = "111";
-        emp.hourlyRate = 100; // Now you can access hourlyRate
+        part.hourlyRate = 100; // Now you can access hourlyRate
         System.out.println(emp.getSalary());
-        System.out.println(emp.getHourlyRate()); // Now you can call getHourlyRate()
+        System.out.println(part.getHourlyRate()); // Now you can call getHourlyRate()
     }
 }
 ```
