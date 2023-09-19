@@ -3,12 +3,12 @@ If your last name is "Yousuf," here are two overloaded methods with the method n
 ```java
 public class Yousuf {
     // Overloaded method with different parameter types
-    public void Yousuf(int number) {
+    public void Yousuf(int number) { // Main Answer
         // Method implementation
     }
 
     // Overloaded method with different number of parameters
-    public void Yousuf(String text1, String text2) {
+    public void Yousuf(String text1, String text2) { // Main Answer
         // Method implementation
     }
 }
