@@ -25,7 +25,7 @@ public class TestException {
     public static int mathFun(int num) throws Exception {
         // Throw an Exception with a message saying "Not an even number."
         // Also update the method to fix any error
-        if (num % 2 == 0) {
+        if (num % 2 != 0) {
             throw new Exception("Not an even number.");
         } else {
             return num / 2;

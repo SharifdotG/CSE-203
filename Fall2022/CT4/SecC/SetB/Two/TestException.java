@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class TestException {
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        double data = scan.nextDouble();
+        
         /*
          * call the mathRoot and pass the data as the parameter.
          * If no Exception is thrown from the call, print the result.
          * Otherwise print the Exception message****/
-        Scanner scan = new Scanner(System.in);
-        double data = scan.nextDouble();
-
         try {
             int result = mathRoot(data);
 
