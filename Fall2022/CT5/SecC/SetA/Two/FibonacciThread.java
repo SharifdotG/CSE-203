@@ -27,7 +27,7 @@ public class FibonacciThread extends Thread {
          * Print the Fibonacci series.
          */
         for (int i = 0; i < 10; i++) {
-            System.out.print(prev + " "); // Print the previous number
+            System.out.println(prev); // Print the previous number
             int next = prev + current; // Calculate the next number
             prev = current; // Update the previous number
             current = next; // Update the current number
