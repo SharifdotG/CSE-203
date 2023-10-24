@@ -20,15 +20,29 @@ public class One {
         scanner.close();
     }
 
+    // public static boolean isPrime(int num) {
+    //     if (num == 1)
+    //         return false;
+    //     if (num == 2)
+    //         return true;
+    //     if (num % 2 == 0)
+    //         return false;
+
+    //     for (int i = 3; i <= Math.sqrt(num); i += 2)
+    //         if (num % i == 0)
+    //             return false;
+
+    //     return true;
+    // }
+
+    //give me a easier isprime function
     public static boolean isPrime(int num) {
         if (num == 1)
             return false;
         if (num == 2)
             return true;
-        if (num % 2 == 0)
-            return false;
 
-        for (int i = 3; i <= Math.sqrt(num); i += 2)
+        for (int i = 2; i <= num/2; i++)
             if (num % i == 0)
                 return false;
 
