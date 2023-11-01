@@ -1,4 +1,4 @@
-package One;
+package Spring2022.Mid.One;
 
 public class ICPCContest {
     public static void main(String[] args) {

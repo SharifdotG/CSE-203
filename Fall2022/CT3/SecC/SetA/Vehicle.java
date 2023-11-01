@@ -1,3 +1,5 @@
+package Fall2022.CT3.SecC.SetA;
+
 abstract class Vehicle {
     // Instance variables
     protected String model;

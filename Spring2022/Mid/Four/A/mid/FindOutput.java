@@ -1,4 +1,4 @@
-package Four.A.mid;
+package Spring2022.Mid.Four.A.Mid;
 
 public class FindOutput {
     public static void main(String[] args) {

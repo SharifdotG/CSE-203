@@ -1,4 +1,4 @@
-package Question2;
+package Spring2023.Assignment2.Question2;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

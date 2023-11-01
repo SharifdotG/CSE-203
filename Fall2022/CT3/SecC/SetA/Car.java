@@ -1,3 +1,5 @@
+package Fall2022.CT3.SecC.SetA;
+
 public class Car extends Vehicle {
     // Constructor for Car class
     public Car(String model, double enginePower) {

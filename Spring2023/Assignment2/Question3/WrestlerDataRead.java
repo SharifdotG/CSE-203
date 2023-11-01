@@ -1,4 +1,4 @@
-package Question3;
+package Spring2023.Assignment2.Question3;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

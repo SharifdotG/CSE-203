@@ -1,3 +1,5 @@
+package Fall2022.CT1.SetB;
+
 public class Two {
     public static void main(String[] args) {
         // 2.

@@ -1,4 +1,4 @@
-package Three;
+package Spring2022.Mid.Three;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Four.A.mid;
+package Spring2022.Mid.Four.A.Mid;
 
 public class MidExam {
     private int noOfQuest;

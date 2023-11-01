@@ -1,4 +1,4 @@
-package One;
+package Spring2022.Mid.One;
 
 public class ICPCCoach {
     public String name;

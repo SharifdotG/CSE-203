@@ -7,10 +7,10 @@ public class Course {
         int mark = 3 + id % 13;
 
         // Create an object of ClassTest for ct1
-        ClassTest ct1 = new ClassTest("YourFirstName", 17, 3, 20);
+        ClassTest ct1 = new ClassTest("Sharif", 17, 3, 20);
 
         // Create an object of ClassTest for ct2
-        ClassTest ct2 = new ClassTest("YourLastName", 10, 4, 20);
+        ClassTest ct2 = new ClassTest("Yousuf", 10, 4, 20);
 
         // Call the addQuestion method for ct1 with the calculated mark
         ct1.addQuestion(mark);

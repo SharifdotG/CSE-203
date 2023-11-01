@@ -1,3 +1,5 @@
+package Fall2022.CT1.SetA;
+
 import java.util.Scanner;
 
 public class Three {

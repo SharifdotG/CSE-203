@@ -1,4 +1,4 @@
-package Two;
+package Spring2022.Mid.Two;
 
 public class Rectangle {
     private double length;

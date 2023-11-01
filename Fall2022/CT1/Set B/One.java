@@ -1,3 +1,5 @@
+package Fall2022.CT1.SetB;
+
 import java.util.Scanner;
 
 public class One {

@@ -1,4 +1,4 @@
-package Question2;
+package Spring2023.Assignment2.Question2;
 
 public class Wrestler {
     private String name;
