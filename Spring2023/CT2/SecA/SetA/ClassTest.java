@@ -12,7 +12,7 @@ public class ClassTest {
         this.noOfQuestions = noOfQuestions;
     }
 
-    // Method to add a question
+    // Method to add a question+
     public void addQuestion(int mark) {
         noOfQuestions++;
         score += mark;

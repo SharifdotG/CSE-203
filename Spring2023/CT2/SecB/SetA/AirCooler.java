@@ -10,8 +10,6 @@ public class AirCooler {
     public AirCooler(String brand, String type) {
         this.brand = brand;
         this.type = type;
-        this.isOn = false;
-        this.temp = 0;
     }
 
     // Method to turn on the air cooler

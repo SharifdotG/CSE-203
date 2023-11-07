@@ -19,10 +19,10 @@ public class ClassTest {
         noOfQuestions++;
         score += mark;
 
-        // Check if score exceeds maxScore, then reset
+        // Check if score exceeds maxScore, then reset to the earlier values
         if (score > maxScore) {
-            noOfQuestions = 0;
-            score = 0;
+            noOfQuestions--;
+            score -= mark;
         }
     }
 

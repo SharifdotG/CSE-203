@@ -18,10 +18,7 @@ public class Forest {
         monkey2.grow();
 
         // Call the display method for both monkey1 and monkey2
-        System.out.println("Monkey 1:");
         monkey1.display();
-
-        System.out.println("\nMonkey 2:");
         monkey2.display();
     }
 }

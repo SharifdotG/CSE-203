@@ -16,8 +16,8 @@ public abstract class Professional {
     }
 
     public void promotion(String newDesignation, double newSalary) {
-        this.designation = newDesignation;
-        this.salary = newSalary;
+        designation = newDesignation;
+        salary = newSalary;
     }
 
     public abstract void jobDescription();

@@ -1,8 +1,7 @@
 package Spring2023.CT3.SecB.SetA.One;
 
 public class House implements Door {
-    private double width;
-    private double height;
+    private double width, height;
 
     public House(double width, double height) {
         this.width = width;

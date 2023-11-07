@@ -12,14 +12,17 @@ public class Fan {
         this.manufacturer = manufacturer;
         this.category = category;
         this.maxSpeed = maxSpeed;
-        this.speed = 0; // Fan is initially off
-        this.isOn = false;
     }
 
     // Method to turn on the fan with a specified speed
     public void turnOn(int fanSpeed) {
         isOn = true;
-        speed = (fanSpeed <= maxSpeed) ? fanSpeed : maxSpeed;
+        // speed = (fanSpeed <= maxSpeed) ? fanSpeed : maxSpeed;
+        if (fanSpeed <= maxSpeed) {
+            speed = fanSpeed;
+        } else {
+            speed = maxSpeed;
+        }
     }
 
     // Method to increase the fan speed

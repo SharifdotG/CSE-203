@@ -19,9 +19,7 @@ public class Course {
 
     // Method to drop a student
     public void dropCourse() {
-        if (noOfStudents > 0) {
-            noOfStudents--;
-        }
+        noOfStudents--;
     }
 
     // Method to get the student count
