@@ -2,10 +2,6 @@ package Spring2023.CT2.SecB.SetA;
 
 public class House {
     public static void main(String[] args) {
-        // // Replace '28' with the actual last two digits of your registration number
-        // int id = 28;
-        // int acTemp = 14 + id % 15;
-
         // Create an object of AirCooler with brand as your name and type as "Window AC"
         AirCooler myAc = new AirCooler("YourName", "Window AC");
 

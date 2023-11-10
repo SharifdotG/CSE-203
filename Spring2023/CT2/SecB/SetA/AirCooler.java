@@ -31,7 +31,7 @@ public class AirCooler {
 
     // Method to display the status of the air cooler
     public void display() {
-        if (isOn) {
+        if (isOn == true) {
             System.out.println("Running at " + temp + " temperature");
         } else {
             System.out.println("Brand: " + brand);

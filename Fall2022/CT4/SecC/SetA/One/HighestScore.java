@@ -7,14 +7,9 @@ import java.io.IOException;
 public class HighestScore {
     public static void main(String[] args) {
         /*
-         * Change the file path to your local file path
-         */
-        String fileName = "D:\\Programming\\VSCode\\CSE 203 CT Solve\\Fall2022\\CT4\\SecC\\SetA\\One\\score.txt";
-
-        /*
          * try block to read the file and catch block to catch the exception
          */
-        try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("D:\\Programming\\VSCode\\CSE 203 CT Solve\\Fall2022\\CT4\\SecC\\SetA\\One\\score.txt"))) {
             String line;
             
             while ((line = br.readLine()) != null) {

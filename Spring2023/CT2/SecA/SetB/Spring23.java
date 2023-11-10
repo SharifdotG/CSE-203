@@ -8,9 +8,6 @@ public class Spring23 {
         // Create an object of Course class for "Data Structure" with credit 3 and initial students count 25
         Course course2 = new Course("Data Structure", 3, 25);
 
-        // // Replace '8' with the actual last digit of your registration number
-        // int lastDigit = 8;
-
         // Call the registerCourse method for course1 with the last digit of your registration number as the parameter
         course1.registerCourse(8);
 
