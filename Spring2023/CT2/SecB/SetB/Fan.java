@@ -17,7 +17,6 @@ public class Fan {
     // Method to turn on the fan with a specified speed
     public void turnOn(int fanSpeed) {
         isOn = true;
-        // speed = (fanSpeed <= maxSpeed) ? fanSpeed : maxSpeed;
         if (fanSpeed <= maxSpeed) {
             speed = fanSpeed;
         } else {
@@ -45,7 +44,7 @@ public class Fan {
     public void display() {
         System.out.println("Manufacturer: " + manufacturer);
         System.out.println("Category: " + category);
-        System.out.println("Speed: " + speed);
+        System.out.println("Max Speed: " + maxSpeed);
     }
 }
 

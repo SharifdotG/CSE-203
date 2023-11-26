@@ -9,8 +9,7 @@ public class House {
         myAc.turnOn(14 + 28 % 15);
 
         // Call the isRunning method and print the output
-        boolean isRunning = myAc.isRunning();
-        System.out.println("Is the air cooler running? " + isRunning);
+        System.out.println(myAc.isRunning());
 
         // Call the display method
         myAc.display();

@@ -2,10 +2,6 @@ package Spring2023.CT2.SecC.SetB;
 
 public class Course {
     public static void main(String[] args) {
-        // // Replace '28' with the actual last two digits of your registration number
-        // int id = 28;
-        // int mark = 3 + id % 13;
-
         // Create an object of ClassTest for ct1
         ClassTest ct1 = new ClassTest("Sharif", 17, 3, 20);
 
