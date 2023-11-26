@@ -16,7 +16,7 @@ public class Car implements Engine {
 
     @Override
     public void running(int min) {
-        System.out.println("Running at speed=" + speed);
+        System.out.println("Running at speed=" + speed + ".");
         System.out.println("Distance covered=" + speed * min + ".");
     }
 

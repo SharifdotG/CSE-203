@@ -10,13 +10,11 @@ public class House implements Door {
 
     @Override
     public void openDoor() {
-        // Implement the openDoor method here
         System.out.println("The door is open.");
     }
 
     @Override
     public void closeDoor() {
-        // Implement the closeDoor method here
         System.out.println("The door is closed.");
     }
 }

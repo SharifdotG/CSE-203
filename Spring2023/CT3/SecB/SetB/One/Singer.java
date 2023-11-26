@@ -9,10 +9,7 @@ public class Singer extends Musician {
     }
 
     @Override
-    public void play(String item) {
-        // No implementation is mentioned in the question
-        // So leaving it empty!
-    }
+    public void play(String item) {}
 
     @Override
     public int noOfRecords() {

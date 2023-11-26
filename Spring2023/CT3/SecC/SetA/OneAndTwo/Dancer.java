@@ -1,22 +1,18 @@
 package Spring2023.CT3.SecC.SetA.OneAndTwo;
 
 public class Dancer extends Performer {
-    private float rank;
+    private int rank;
 
-    public Dancer(String name, String field, float rank) {
-        super(name, field); // Call the constructor of the superclass (Performer)
+    public Dancer(String name, String field, int rank) {
+        super(name, field);
         this.rank = rank;
     }
 
     @Override
-    public void perform() {
-        // Implement the perform method for a Dancer
-        System.out.println("Dancer is performing.");
-    }
+    public void perform() {}
 
     @Override
     public float getRank() {
-        // Implement the getRank method for a Dancer
         return rank;
     }
 }

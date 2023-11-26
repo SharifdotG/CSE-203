@@ -4,22 +4,16 @@ public class Aeroplane extends Vehicle implements Engine {
     private int enginePower;
 
     public Aeroplane(String model, int enginePower) {
-        super(model); // Call the constructor of the superclass (Vehicle) with the 'model' parameter
+        super(model);
         this.enginePower = enginePower;
     }
 
     @Override
-    public void startEngine() {
-        System.out.println("Aeroplane engine started");
-    }
+    public void startEngine() {}
 
     @Override
-    public void run() {
-        System.out.println("Aeroplane is flying");
-    }
+    public void run() {}
 
     @Override
-    public void stopEngine() {
-        System.out.println("Aeroplane engine stopped");
-    }
+    public void stopEngine() {}
 }
