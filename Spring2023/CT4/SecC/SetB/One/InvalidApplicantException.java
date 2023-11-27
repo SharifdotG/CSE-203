@@ -1,4 +1,4 @@
-package Spring2023.CT4.SecC.SetB.OneAndTwo;
+package Spring2023.CT4.SecC.SetB.One;
 
 public class InvalidApplicantException extends Exception {
     public InvalidApplicantException(int min, int max) {
