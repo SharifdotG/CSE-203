@@ -3,10 +3,8 @@ package Fall2022.Final.Two;
 import java.util.Scanner;
 
 public class B {
-    static boolean isPrime(int n) {
-        if (n == 0 || n == 1) {
-            return false;
-        }
+    public static boolean isPrime(int n) {
+        if (n == 1) return false;
 
         for (int i = 2; i <= n / 2; i++) {
             if (n % i == 0) {

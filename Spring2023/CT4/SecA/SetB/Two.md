@@ -1,3 +1,5 @@
+# The Provided Code
+
 ```java
 package ct4.secA;
 
@@ -34,7 +36,7 @@ Now, let's analyze the code and its expected output:
 
 So, the expected output of this code will be:
 
-```
+```plaintext
 Inside Try.
 Inside Catch 3.
 Inside Finally

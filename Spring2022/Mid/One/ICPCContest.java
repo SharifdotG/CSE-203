@@ -2,7 +2,7 @@ package Spring2022.Mid.One;
 
 public class ICPCContest {
     public static void main(String[] args) {
-        ICPCCoach coach = new ICPCCoach("Sharif Md. Yousuf", "Bangladesh", 2); // Swap "Sharif Md. Yousuf" with your own name
+        ICPCCoach coach = new ICPCCoach("Sharif Md. Yousuf", "Bangladesh", 2);
 
         coach.promoteTeam("UAP Fighter");
 

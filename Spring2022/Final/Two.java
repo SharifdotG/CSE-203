@@ -13,7 +13,7 @@ public class Two {
             int[] arr = new int[10];
             int sum = 0;
             
-            for (int i = 0; i < arr.length; i++) {
+            for (int i = 0; i < 10; i++) {
                 arr[i] = scanner.nextInt();
                 if (arr[i] % 2 == 0) {
                     sum += arr[i];
@@ -23,7 +23,7 @@ public class Two {
             System.out.println(sum);
         }
 
-        if (a < b) {
+        if (b > a) {
             int count = 0;
             int i = 2;
 
@@ -40,7 +40,6 @@ public class Two {
                     System.out.print(i + " ");
                     count++;
                 }
-
                 i++;
             }
         }

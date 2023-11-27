@@ -11,17 +11,21 @@ public class One {
 
         if (a > b) {
             int sum = 0;
-            for (int x : arr) {
-                sum += x;
+
+            for (int i = 0; i < 8; i++) {
+                sum += arr[i];
             }
+
             System.out.println(sum);
         } else {
             int max = 0;
-            for (int x : arr) {
-                if (x > max) {
-                    max = x;
+
+            for (int i = 0; i < 8; i++) {
+                if (arr[i] > max) {
+                    max = arr[i];
                 }
             }
+
             System.out.println(max);
         }
 

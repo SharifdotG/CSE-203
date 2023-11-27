@@ -2,7 +2,7 @@ package Spring2023.CT4.SecA.SetB.One;
 
 public class StringUtil {
     public static void CheckString(String input) throws Exception {
-        String[] words = input.split("\\s+"); // Split the input string into words
+        String[] words = input.split(" ");
 
         for (String word : words) {
             if (word.length() < 4) {

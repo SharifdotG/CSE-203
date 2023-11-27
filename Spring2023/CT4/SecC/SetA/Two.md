@@ -1,3 +1,5 @@
+# Solve
+
 In Java, exceptions can be of two types: checked exceptions and unchecked exceptions. The key difference between the two is that checked exceptions are required to be either caught (using a `try-catch` block) or declared in the method's signature using the `throws` keyword, while unchecked exceptions (also known as runtime exceptions) are not subject to this requirement. The compiler enforces these rules.
 
 In your code, `NullPointerException` is an unchecked exception, while `IOException` is a checked exception.
