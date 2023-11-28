@@ -1,4 +1,4 @@
-package Fall2022.CT1.SetA;
+package Fall2022.CT1.SecC;
 
 public class Six {
     public static void main(String[] args) {

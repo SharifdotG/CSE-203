@@ -1,4 +1,4 @@
-package Fall2022.CT1.SetB;
+package Fall2022.CT1.SecA;
 
 public class Two {
     public static void main(String[] args) {
