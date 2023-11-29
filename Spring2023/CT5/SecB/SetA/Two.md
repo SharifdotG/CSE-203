@@ -1,7 +1,7 @@
 To serialize objects of the `Student` class, you need to implement the `Serializable` interface. This interface does not have any methods and acts as a marker interface to indicate that the class can be serialized. Here's how you can modify the `Student` class to make it serializable:
 
 ```java
-import java.io.Serializable;
+import java.io.*;
 
 public class Student implements Serializable {
     String name;
