@@ -1,13 +1,11 @@
 package Spring2023.CT5.SecA.SetA.One;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 public class CourseSectionCounter {
     public static void main(String[] args) {
         try {
-            BufferedReader br = new BufferedReader(new FileReader("D:\\Programming\\VSCode\\CSE 203 CT Solve\\Spring2023\\CT5\\SecA\\SetA\\One\\intput.txt"));
+            BufferedReader br = new BufferedReader(new FileReader("D:\\Programming\\VSCode\\CSE 203 CT Solve\\Spring2023\\CT5\\SecA\\SetA\\One\\intput.txt")); // "intput.txt"
             String line;
 
             while ((line = br.readLine()) != null) {
@@ -22,7 +20,7 @@ public class CourseSectionCounter {
 
             br.close();
         } catch (IOException e) {
-            System.err.println(e.getMessage());
+            e.printStackTrace();
         }
     }
 }
