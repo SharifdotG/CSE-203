@@ -27,7 +27,7 @@ public class AttendanceProcessor {
 
             br.close();
         } catch (IOException e) {
-            
+            e.printStackTrace();
         }
     }
 }
