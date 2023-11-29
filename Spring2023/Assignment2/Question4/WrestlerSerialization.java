@@ -10,7 +10,7 @@ public class WrestlerSerialization {
         wrestlers.add(new Wrestler("The Rock", 51, "Rock Bottom"));
 
         // Serializing Wrestler objects and saving to data_ser.txt
-        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("D:\\Programming\\JetBrains\\CSE203Assignment2\\src\\Question4\\data_ser.txt"))) {
+        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("D:\\Programming\\VSCode\\CSE 203 CT Solve\\Spring2023\\Assignment2\\Question4\\data_ser.txt"))) {
             oos.writeObject(wrestlers);
         } catch (IOException e) {
             throw new RuntimeException(e);

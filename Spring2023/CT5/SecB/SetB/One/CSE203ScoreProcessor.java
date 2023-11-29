@@ -10,7 +10,7 @@ public class CSE203ScoreProcessor {
             BufferedWriter bw = new BufferedWriter(new FileWriter("D:\\Programming\\VSCode\\CSE 203 CT Solve\\Spring2023\\CT5\\SecB\\SetB\\One\\output.txt"));
 
             String line;
-            
+
             while ((line = br.readLine()) != null) {
                 String[] parts = line.split(" ");
                 
@@ -32,7 +32,7 @@ public class CSE203ScoreProcessor {
             br.close();
             bw.close();
         } catch (IOException e) {
-            System.err.println(e.getMessage());
+            System.out.println(e.getMessage());
         }
     }
 }

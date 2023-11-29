@@ -11,7 +11,7 @@ public class WrestlerData {
         wrestlers.add(new Wrestler("John Cena", 46, "Attitude Adjustment"));
         wrestlers.add(new Wrestler("The Rock", 51, "Rock Bottom"));
 
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("D:\\Programming\\JetBrains\\CSE203Assignment2\\src\\Question2\\data.txt"))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("D:\\Programming\\VSCode\\CSE 203 CT Solve\\Spring2023\\Assignment2\\Question2\\data.txt"))) {
             for (Wrestler wrestler : wrestlers) {
                 writer.write(wrestler.toString() + "\n");
             }

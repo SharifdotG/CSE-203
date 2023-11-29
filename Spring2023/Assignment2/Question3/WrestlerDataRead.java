@@ -9,7 +9,7 @@ public class WrestlerDataRead {
     public static void main(String[] args) {
         ArrayList<Wrestler> wrestlers = new ArrayList<>();
 
-        try (BufferedReader reader = new BufferedReader(new FileReader("D:\\Programming\\JetBrains\\CSE203Assignment2\\src\\Question3\\data.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("D:\\Programming\\VSCode\\CSE 203 CT Solve\\Spring2023\\Assignment2\\Question3\\data.txt"))) {
             String line;
 
             while ((line = reader.readLine()) != null) {

@@ -1,4 +1,5 @@
 Code with errors:
+
 ```java
 public class TestError {
     public static void main (String[] a) {
@@ -32,6 +33,7 @@ class Student {
 ```
 
 Code without errors:
+
 ```java
 public class TestError {
     public static void main (String[] a) {

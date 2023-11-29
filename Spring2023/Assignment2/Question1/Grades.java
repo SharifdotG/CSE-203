@@ -5,10 +5,11 @@ import java.io.*;
 public class Grades {
     public static void main(String[] args) {
         try {
-            BufferedReader br = new BufferedReader(new FileReader("D:\\Programming\\JetBrains\\CSE203Assignment2\\src\\Question1\\input.txt"));
-            BufferedWriter bw = new BufferedWriter(new FileWriter("D:\\Programming\\JetBrains\\CSE203Assignment2\\src\\Saba\\Q1\\output.txt"));
+            BufferedReader br = new BufferedReader(new FileReader("D:\\Programming\\VSCode\\CSE 203 CT Solve\\Spring2023\\Assignment2\\Question1\\input.txt"));
+            BufferedWriter bw = new BufferedWriter(new FileWriter("D:\\Programming\\VSCode\\CSE 203 CT Solve\\Spring2023\\Assignment2\\Question1\\output.txt"));
 
             String studentDetails;
+            
             while ((studentDetails = br.readLine()) != null) {
                 String[] sections = studentDetails.split(" ");
 
@@ -21,15 +22,14 @@ public class Grades {
                     double totalScore = (0.3 * assessmentScore) + (0.2 * midScore) + (0.5 * finalScore);
                     String grade = calculateGrade(totalScore);
 
-                    String output = String.format("%d %.1f %s\n", id, totalScore, grade);
-                    bw.write(output);
+                    bw.write(id + " " + totalScore + " " + grade + "\n");
                 }
             }
 
             br.close();
             bw.close();
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 
