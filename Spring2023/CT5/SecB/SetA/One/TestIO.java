@@ -1,7 +1,6 @@
 package Spring2023.CT5.SecB.SetA.One;
 
 import java.io.*;
-import java.util.Scanner;
 
 public class TestIO {
     public static void main(String[] args) {
@@ -21,12 +20,12 @@ public class TestIO {
         }
 
         // Task 2:Write code to read the values from "students.txt",
-        // create 2 Student type object s3 and s using those values
+        // create 2 Student type object s3 and s4 using those values
         // and then print the values of those to objects
         try {
             BufferedReader br = new BufferedReader(new FileReader("D:\\Programming\\VSCode\\CSE 203 CT Solve\\Spring2023\\CT5\\SecB\\SetA\\One\\students.txt"));
-            String s1Data[] = br.readLine().split(", ");
-            String s2Data[] = br.readLine().split(", ");
+            String[] s1Data = br.readLine().split(", ");
+            String[] s2Data = br.readLine().split(", ");
 
             Student s3 = new Student(s1Data[0], Integer.parseInt(s1Data[1]), Double.parseDouble(s1Data[2]));
             Student s4 = new Student(s2Data[0], Integer.parseInt(s2Data[1]), Double.parseDouble(s2Data[2]));
