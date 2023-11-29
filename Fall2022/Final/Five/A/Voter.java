@@ -14,6 +14,10 @@ public class Voter {
         return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public int getAge() {
         return age;
     }
@@ -23,7 +27,7 @@ public class Voter {
     }
     
     // Overloaded method for grow
-    public void grow(int years) {
-        age += years;
+    public int grow(int years) {
+        return age += years;
     }
 }
