@@ -5,7 +5,7 @@ public class ThreadTest {
     public static void main(String[] args) {
         Thread t = new Thread("My Thread") {
             public void run() {
-                for(int i = 1; i < 5; i++) {
+                for(int i = 1; i < 5; i++) { // i = 1, 2, 3, 4
                     System.out.println(Thread.currentThread().getName()+":"+i);
                 }
             }
@@ -22,7 +22,7 @@ public class ThreadTest {
 
 Output:
 
-```
+```plaintext
 main:1
 main:2
 main:3
@@ -31,5 +31,5 @@ main:4
 
 Explanation:
 
-- The `run` method is executed in the main thread of the program, so the thread's name is "My Thread".
+- The `run` method is executed in the main thread of the program, so the thread's name is "main".
 - The loop runs from 1 to 4, and at each iteration, it prints the thread name followed by the loop counter value.

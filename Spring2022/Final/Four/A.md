@@ -9,7 +9,7 @@
 ```java
 public class Calculator {
     public void printSum(int a, int b) {
-        System.out.println("Sum: " + (a + b));
+        System.out.println(a + b);
     }
 
     public int calculateSum(int a, int b) {

@@ -15,7 +15,7 @@ public class House {
     }
     
     // Inner class with 2 attributes width and length.
-    public class Room{
+    public class Room {
         int width, length;
         
         public Room(int width, int length) {
