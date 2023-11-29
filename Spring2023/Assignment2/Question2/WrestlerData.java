@@ -15,7 +15,7 @@ public class WrestlerData {
 
             bw.close();
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 }
