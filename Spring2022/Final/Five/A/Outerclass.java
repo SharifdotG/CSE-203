@@ -34,12 +34,9 @@ public class Outerclass {
         // Create an instance of Outerclass
         Outerclass outerObj = new Outerclass(10);
         
-        // Call outerMethod
-        outerObj.outerMethod();
-        
         // To call innerMethod of InnerClass from a static context
         // you need to create an instance of InnerClass as well
-        InnerClass innerObj = outerObj.new InnerClass(20);
+        Outerclass.InnerClass innerObj = outerObj.new InnerClass(20);
         innerObj.innerMethod();
     }
 }
